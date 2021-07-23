@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addPatient"
+            android:icon="@drawable/menu_add"
+            android:title="Add Patient" />
+        <item
+            android:id="@+id/nav_addAlert"
+            android:icon="@drawable/menu_alert"
+            android:title="Add Alerts" />
+        <item
+            android:id="@+id/nav_dbBackup"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Database Backup" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Account Setting" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
